@@ -74,6 +74,9 @@ A responsive, multi-page **hotel booking web application** built with HTML, CSS,
 
 ---
 
+## Live Demo
+Check out the live project here: [Hotel Booking System]( https://neliswa14-afk.github.io/hotel-booking-system/)
+
 ## How to Run the Project
 1. Clone the repository:  
    `git clone <repository-url>`
