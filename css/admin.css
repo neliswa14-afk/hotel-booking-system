@@ -1,1 +1,127 @@
+/*======== ADMIN DASHBOARD =======*/
+body{
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f4f6f9;
+}
 
+.admin-header{
+    background: #111827;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logout-btn{
+    background: #dc2626;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover{
+    opacity: 0.9;
+}
+
+.stats{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    background: white;
+    padding: 20px;
+    flex: 1;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.charts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.section-title{
+    padding-left: 20px;
+}
+
+table{
+    width: 96%;
+    margin: 15px auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td{
+    padding: 12px;
+    border-bottom: 1px solid #e5e7eb;
+    text-align: center;
+}
+
+th{
+    background: #1f2933;
+    color: white;
+}
+
+tbody tr:hover{
+    background: #f9fafb;
+}
+
+.status-paid{
+    color: #16a34a;
+    font-weight: bold;
+}
+
+.status-cancelled{
+    color: #dc2626;
+    font-weight: bold;
+}
+
+.cancel-btn{
+    background: #dc2626;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+.cancel-btn:disabled{
+    background-color: #9ca3af;
+    cursor: not-allowed;
+}
+
+.pagination{
+    text-align: center;
+    margin: 20px;
+}
+
+.pagination button{
+    background: #2563eb;
+    color: white;
+    padding: 6px 14px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .charts{
+        grid-template-columns: 1fr;
+    }
+
+    .stats{
+        flex-direction: column;
+    }
+}
+
+button{
+    transition: 0.2s ease;
+}

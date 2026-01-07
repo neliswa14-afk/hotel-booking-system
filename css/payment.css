@@ -1,0 +1,102 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+/*===== TOP NAVIGATION BAR ====*/
+.top-bar{
+    background: #1f2933;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-bar button{
+    background: #e74c3c;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.top-bar button:hover{
+    background: #c0392b;
+}
+
+/*===== PAYMENT CONTAINER =====*/
+.payment-container{
+    width: 400px;
+    max-width: 95%;
+    background: white;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.summary{
+    background: #f1f5f9;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.summary p{
+    margin: 5px 0;
+}
+
+input, select{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.row{
+    display: flex;
+    gap: 10px;
+}
+
+.row input{
+    flex: 1; /* evenly split month + CVV */
+}
+
+.payment-container button[type="submit"],
+.payment-container button{
+    width: 100%;
+    background: #2563eb;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.payment-container button[type="submit"]:hover,
+.payment-container button:hover{
+    background: #1e40af;
+}
+
+#message{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}

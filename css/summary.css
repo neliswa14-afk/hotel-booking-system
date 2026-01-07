@@ -1,0 +1,103 @@
+/*======= BOOKING SUMMARY PAGE ======*/
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/*===== TOP NAVIGATION BAR ====*/
+/*===== TOP NAVIGATION BAR ====*/
+.top-bar{
+    background: #1f2933;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-bar button{
+    background: #e74c3c;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.top-bar button:hover{
+    background: #c0392b;
+}
+
+/*===== SUMMARY CONTAINER =====*/
+.summary {
+    background: #fff;
+    width: 420px;
+    max-width: 95%;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.summary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.summary h1 {
+    margin-top: 0;
+    font-size: 26px;
+    color: #2c3e50;
+}
+
+.summary p {
+    margin: 8px 0;
+    font-size: 15px;
+}
+
+.summary strong {
+    color: #2c3e50;
+}
+
+/*===== BUTTONS =====*/
+.summary button {
+    margin: 12px 6px 0 6px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.summary button[type="button"]:first-of-type {
+    background: #0077ff;
+    color: white;
+}
+
+.summary button[type="button"]:first-of-type:hover {
+    background: #005ad3;
+    transform: translateY(-2px);
+}
+
+.summary button[type="button"]:last-of-type {
+    background: #28a745;
+    color: white;
+}
+
+.summary button[type="button"]:last-of-type:hover {
+    background: #1e7e34;
+    transform: translateY(-2px);
+}

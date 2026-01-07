@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    margin: 0;
+}
+
+/*====== TOP BAR CSS ======*/
+.top-bar{
+    background: #1f2933;
+    color: white;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-bar button{
+    background: #a74c3c;
+    border: none;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container{
+    width: 95%;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/*====== TABLE CSS =====*/
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td{
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+th{
+    background: #2563eb;
+    color: white;
+}
+.status-paid{
+    color: green;
+    font-weight: bold;
+}
+
+.status-cancelled{
+    color: red;
+    font-weight: bold;
+}
+
+.cancel-btn{
+    background: #dc2626;
+    border: none;
+    color: white;
+    padding: 6px 12px;border-radius: 5px;
+    cursor: pointer;
+}
+
+.cancel-btn:hover{
+    background: #b91c1c;
+}
+
+#emptyMsg{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #555;
+}

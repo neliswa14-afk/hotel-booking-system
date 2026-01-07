@@ -1,0 +1,80 @@
+/*======= WELCOME PAGE CSS =======*/
+.welcome-container{
+    height: 100vh;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #3498db, #2ecc71);
+    background-size: 200% 200%;
+    animation: gradientMove 6s ease infinite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/*========= GRADIENT ANIMATION =====*/
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.welcome-container h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.subtitle{
+    font-size: 28px;
+    margin-bottom: 20px;
+    opacity: 0.95;
+}
+
+/*====== BUTTONS CONTAINER ====*/
+.welcome-buttons{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+/*======= BUTTONS ======*/
+.btn{
+    padding: 14px 28px;
+    background: white;
+    color: #3498db;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/*======= HOVER + FOCUS ====*/
+.btn:hover,
+.btn:focus{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    opacity: 1;
+}
+
+/*===== MOBILE OPTIMIZATION ======*/
+@media (max-width: 600px) {
+    .welcome-container h1{
+        font-size: 30px;
+    }
+
+    .subtitle{
+        font-size: 18px;
+    }
+
+    .btn{
+        width: 200px;
+        text-align: center;
+    }
+}
+
+

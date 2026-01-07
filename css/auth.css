@@ -1,0 +1,99 @@
+/*======= LOGIN & REGISTER CSS =======*/
+body{
+    margin: 0;
+    font-family: "Segoe UI", Arial, san-serif;
+    background: linear-gradient(to right, #4facfe,#00f2fe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    background: #fff;
+    width: 400px;
+    max-width: 90%;
+    padding: 30px 35px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.container a:hover{
+   transform: translateY(-3px);
+   box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+}
+
+.container h2{
+    margin-bottom: 25px;
+    font-size: 28px;
+    color: #111827;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select{
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: 0.2s;
+}
+
+input:focus,
+select:focus{
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52,152,219,0.3);
+}
+
+button{
+    width: 100%;
+    padding: 12px 0;
+    background: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 0.2s;
+}
+
+button:hover{
+    background: #2176c3;
+    transform: translateY(-2px);
+}
+
+.switch{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #475569;
+}
+
+.switch a{
+    color: #3498db;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.switch a:hover{
+    text-decoration: underline;
+}
+
+/*====== MOBILE RESPONSIVE ======*/
+@media (max-width: 500px) {
+    .container{
+        width: 95%;
+        padding: 25px 20px;
+    }
+
+    .container h2{
+        font-size: 24px;
+    }
+}
