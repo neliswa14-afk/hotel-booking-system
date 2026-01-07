@@ -78,7 +78,7 @@ A responsive, multi-page **hotel booking web application** built with HTML, CSS,
 1. Clone the repository:  
    `git clone <repository-url>`
 2. Navigate to the project folder
-3. Open `welcome.html` in any modern web browser
+3. Open `index.html` in any modern web browser
 4. Register or log in to explore user or admin features
 
 ---
