@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Room | Grace Hotels</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Hotel Booking</h2>
+
+        <form id="booking-form">
+            <label>Full Name</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <label>Room Type</label>
+            <select id="room">
+                <option value="choose">Choose</option>
+                <option value="single">Single - R500/night</option>
+                <option value="double">Double - R800/night</option>
+                <option value="suite">Suite - R1500/night</option>
+            </select>
+
+            <label>Check-in Date</label>
+            <input type="date" id="checkin" onchange="calculateNights()">
+
+            <label>Check-out Date</label>
+            <input type="date" id="checkout" onchange="calculateNights()">
+
+            <label>Number of Nights</label>
+            <input type="text" id="nights" readonly placeholder="0 nights">
+
+            <label>Breakfast (Optional)</label>
+            <div class="options">
+                <label><input type="radio" name="breakfast" value="yes">Yes (+R150)</label>
+                <label><input type="radio" name="breakfast" value="no" checked>No</label>
+            </div>
+
+            <label>Extra Services</label>
+            <div class="options">
+                <label><input type="checkbox" value="50" data-name="Wi-Fi">Wi-Fi (R50)</label>
+                <label><input type="checkbox" value="80" data-name="Parking">Parking (R80)</label>
+                <label><input type="checkbox" value="120" data-name="Laundry">Laundry (R120)</label>
+            </div>
+
+            <button type="button" class="sumbit-btn" onclick="checkAvailability()">Check Availability</button>
+            <p id="availability"></p>
+            <button type="button" class="sumbit-btn" onclick="continueBooking()">Continue</button>
+        </form>
+    </div>
+
+    <script src="booking.js"></script>
+</body>
+</html>

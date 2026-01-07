@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bookings | Grace Hotels</title>
+    <link rel="stylesheet" href="css/my-bookings.css">
+</head>
+<body>
+
+    <div class="top-bar">
+        <span>My Bookings</span>
+        <button onclick="logout()">Logout</button>
+    </div>
+
+    <div class="container">
+        <h2>Your Booking History</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Room</th>
+                    <th>Dates</th>
+                    <th>Total</th>
+                    <th>Status</th>
+                    <th>Payment</th>
+                    <th>Refund</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="bookingTable"></tbody>
+
+        </table>
+        <p id="emptyMsg"></p>
+        
+    </div>
+    
+
+    <script src="js/my-bookings.js"></script>
+</body>
+</html>

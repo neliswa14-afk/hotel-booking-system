@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Summary | Grace Hotels</title>
+    <link rel="stylesheet" href="css/booking.css">
+</head>
+<body>
+
+     <div class="summary container">
+        <h1>Booking Summary</h1>
+
+        <p><strong>Full Name:</strong> <span id="name"></span></p>
+        <p><strong>Room:</strong> <span id="room"></span></p>
+        <p><strong>Check-in:</strong> <span id="checkin"></span></p>
+        <p><strong>Check-out:</strong> <span id="checkout"></span></p>
+        <p><strong>Nights:</strong> <span id="nights"></span></p>
+        <p><strong>Breakfast:</strong> <span id="breakfast"></span></p>
+        <p><strong>Extras:</strong> <span id="extras"></span></p>
+        <p><strong>Extras Cost:</strong> R<span id="extrasCost"></span></p>
+        <p><strong>Total:</strong> R<span id="total"></span></p>
+
+        <button type="button" onclick="goBack()">Edit</button>
+        <button type="button" onclick="goToPayment()">Confirm & Pay</button>
+    </div>
+
+    <script src="js/summary.js"></script>
+    
+</body>
+</html>
