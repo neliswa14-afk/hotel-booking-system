@@ -60,6 +60,7 @@ A responsive, multi-page **hotel booking web application** built with HTML, CSS,
 
 ### Booking Flow
 ![Room Selection](screenshots/booking-1.png)
+![Room Selection 2](screenshots/booking-2.png)
 ![Booking Summary](screenshots/booking-summary.png)
 ![Payment Page 1](screenshots/payment-1.png)
 ![Payment Page 2](screenshots/payment-2.png)
