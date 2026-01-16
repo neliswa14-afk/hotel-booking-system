@@ -1,6 +1,6 @@
 # Hotel Booking System
 
-A responsive, multi-page **hotel booking web application** built with HTML, CSS, and JavaScript. Users can browse rooms, select check-in and check-out dates, view booking summaries, and manage their bookings. Admins have a secure dashboard to manage bookings and user data. All data is stored locally using LocalStorage.
+A front-end responsive, multi-page **hotel booking web application** built with HTML, CSS, and JavaScript. Users can browse rooms, select check-in and check-out dates, view booking summaries, and manage their bookings. Admins have a secure dashboard to manage bookings and user data. All data is stored locally using LocalStorage.
 
 ---
 
