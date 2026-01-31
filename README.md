@@ -102,4 +102,8 @@ Check out the live project here: [Hotel Booking System]( https://neliswa14-afk.g
 │── admin.html
 │── README.md
 
+## Author
 
+Neliswa Biyela
+
+Junior Software Developer
